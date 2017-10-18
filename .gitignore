@@ -1,6 +1,11 @@
-.classpath
- .idea/
- .project
- .settings/
- crawler.iml
- target/
+#for eclipse
+/.settings/
+/.project
+*.classpath
+/target
+# for idea
+*.iml
+/.idea
+*/target
+.DS_Store
+.gitattributes

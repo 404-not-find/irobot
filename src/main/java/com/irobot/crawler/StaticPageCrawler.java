@@ -68,7 +68,7 @@ public class StaticPageCrawler implements Runnable {
         if (doc == null)
             return;
         urlSet.add(url);
-        urlMap.put(url, doc.toString());
+//        urlMap.put(url, doc.toString());
         Elements links = doc.select("a");
 
         for (Element link : links) {
